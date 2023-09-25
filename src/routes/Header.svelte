@@ -36,7 +36,7 @@ import github from "$lib/images/github.svg";
         </div>
     </div>
     <!-- header logo-->
-    <div class="header-logo"><a href="/" class="logo"><img src="/images/sheleftme-logo2.png"
+    <div class="header-logo"><a href="#/" class="logo"><img src="/images/sheleftme-logo2.png"
         alt="Alay" class="logo-sticky logo-black"><img src="/assets/images/logo-white.png" alt="Alay"
         class="logo-sticky logo-white"></a>
     <p class="logo-text">Share Your Quotes </p>
@@ -49,45 +49,45 @@ import github from "$lib/images/github.svg";
         <nav class="main-nav-mobile">
             <ul>
                 <li class="menu-item nav-item menu-item-has-children dropdown current-menu-ancestor"><a
-                    href="index-2.html" class="dropdown-toggle nav-link"><i
+                    href="#/" class="dropdown-toggle nav-link"><i
                         class="fa fa-angle-down btn-open-dropdown"></i>Home</a>
                 <ul class="dropdown-menu">
-                    <li class="menu-item nav-item"><a href="home-dark.html" class="dropdown-text nav-link">Home Dark
+                    <li class="menu-item nav-item"><a href="#/" class="dropdown-text nav-link">Home Dark
                         Mode</a></li>
-                    <li class="menu-item nav-item"><a href="index-2.html" class="dropdown-text nav-link">Home Modern
+                    <li class="menu-item nav-item"><a href="#/" class="dropdown-text nav-link">Home Modern
                         1</a></li>
-                    <li class="menu-item nav-item"><a href="home2.html" class="dropdown-text nav-link">Home Modern
+                    <li class="menu-item nav-item"><a href="#/" class="dropdown-text nav-link">Home Modern
                         2</a></li>
-                    <li class="menu-item nav-item"><a href="home3.html" class="dropdown-text nav-link">Home Modern
+                    <li class="menu-item nav-item"><a href="#/" class="dropdown-text nav-link">Home Modern
                         3</a></li>
-                    <li class="menu-item nav-item"><a href="home-masonry.html" class="dropdown-text nav-link">Home
+                    <li class="menu-item nav-item"><a href="#/" class="dropdown-text nav-link">Home
                         Masonry</a></li>
-                    <li class="menu-item nav-item"><a href="home-minimalist-1.html"
+                    <li class="menu-item nav-item"><a href="#/"
                         class="dropdown-text nav-link">Home Minimalist 01</a></li>
-                    <li class="menu-item nav-item"><a href="home-minimalist-2.html"
+                    <li class="menu-item nav-item"><a href="#/"
                         class="dropdown-text nav-link">Home Minimalist 02</a></li>
-                    <li class="menu-item nav-item active"><a href="home-minimalist-3.html"
+                    <li class="menu-item nav-item active"><a href="#/"
                         class="dropdown-text nav-link">Home Minimalist 03</a></li>
-                    <li class="menu-item nav-item"><a href="home-fullwidth.html" class="dropdown-text nav-link">Home
+                    <li class="menu-item nav-item"><a href="#/" class="dropdown-text nav-link">Home
                         Fullwidth</a></li>
                 </ul>
                 </li>
-                <li class="menu-item nav-item"><a href="about.html" class="main-text nav-link">About</a></li>
+                <li class="menu-item nav-item"><a href="#/" class="main-text nav-link">About</a></li>
                 <li class="menu-item nav-item menu-item-has-children dropdown"><a href="#/"
                     class="dropdown-toggle nav-link"><i
                         class="fa fa-angle-down btn-open-dropdown"></i>Categories</a>
                 <ul class="dropdown-menu">
-                    <li class="menu-item nav-item"><a href="news-list.html"
+                    <li class="menu-item nav-item"><a href="#/"
                         class="dropdown-text nav-link">Lifestyle</a></li>
-                    <li class="menu-item nav-item"><a href="news-grid-2.html"
+                    <li class="menu-item nav-item"><a href="#/"
                         class="dropdown-text nav-link">Photography</a></li>
-                    <li class="menu-item nav-item"><a href="news-grid-3.html"
+                    <li class="menu-item nav-item"><a href="#/"
                         class="dropdown-text nav-link">Fashion</a></li>
-                    <li class="menu-item nav-item"><a href="news-detail.html" class="dropdown-text nav-link">News
+                    <li class="menu-item nav-item"><a href="#/" class="dropdown-text nav-link">News
                         Detail</a></li>
                 </ul>
                 </li>
-                <li class="menu-item nav-item"><a href="contact.html" class="main-text nav-link">Contact</a></li>
+                <li class="menu-item nav-item"><a href="#/" class="main-text nav-link">Contact</a></li>
             </ul>
         </nav>
     </div>

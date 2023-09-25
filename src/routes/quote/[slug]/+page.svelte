@@ -156,7 +156,7 @@ a:visited {
             </small>
         </blockquote>
 
-        <a href="/"> Back to quotes list</a>
+        <a href="#/"> Back to quotes list</a>
         <!-- <button on:click={captureScreenshot}>Capture Screenshot</button> -->
     </div>
 </div>
