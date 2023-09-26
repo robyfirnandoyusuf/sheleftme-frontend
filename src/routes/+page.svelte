@@ -57,7 +57,7 @@ function changePage(newPage) {
                                     <div class="blog-item sub-item blog-center mbl">
                                         <!-- <div class="img-wrap"><img src="https://media.istockphoto.com/id/956341550/photo/grief-divorce-couple-holding-broken-heart-unhappy-relationship-hurt-feeling-for-lover.jpg?s=612x612&w=0&k=20&c=35Emjgi6PMaN4a1v_WJwVE8M0za-JgBbPE7oTTZcbDY=" alt="Alay"></div> -->
                                         <a href="/quote/{item.id}">
-                                            <div class="img-wrap"><img src="{PUBLIC_BE_HOST}/storage/profile_pictures/{item.username}/{item.username}_profile_picture.jpg" alt="Alay"></div>
+                                            <div class="img-wrap"><img src="{PUBLIC_BE_HOST}/storage/profile_pictures/{item.username}/{item.username}_profile_picture.jpg" alt="Profile Picture Empty"></div>
                                         </a>
 
                                         <!-- <div class="cat-heading"></div> -->
