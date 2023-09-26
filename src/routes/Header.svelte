@@ -48,46 +48,8 @@ import github from "$lib/images/github.svg";
         <div class="toggle-header-mobile">×</div>
         <nav class="main-nav-mobile">
             <ul>
-                <li class="menu-item nav-item menu-item-has-children dropdown current-menu-ancestor"><a
-                    href="#/" class="dropdown-toggle nav-link"><i
-                        class="fa fa-angle-down btn-open-dropdown"></i>Home</a>
-                <ul class="dropdown-menu">
-                    <li class="menu-item nav-item"><a href="#/" class="dropdown-text nav-link">Home Dark
-                        Mode</a></li>
-                    <li class="menu-item nav-item"><a href="#/" class="dropdown-text nav-link">Home Modern
-                        1</a></li>
-                    <li class="menu-item nav-item"><a href="#/" class="dropdown-text nav-link">Home Modern
-                        2</a></li>
-                    <li class="menu-item nav-item"><a href="#/" class="dropdown-text nav-link">Home Modern
-                        3</a></li>
-                    <li class="menu-item nav-item"><a href="#/" class="dropdown-text nav-link">Home
-                        Masonry</a></li>
-                    <li class="menu-item nav-item"><a href="#/"
-                        class="dropdown-text nav-link">Home Minimalist 01</a></li>
-                    <li class="menu-item nav-item"><a href="#/"
-                        class="dropdown-text nav-link">Home Minimalist 02</a></li>
-                    <li class="menu-item nav-item active"><a href="#/"
-                        class="dropdown-text nav-link">Home Minimalist 03</a></li>
-                    <li class="menu-item nav-item"><a href="#/" class="dropdown-text nav-link">Home
-                        Fullwidth</a></li>
-                </ul>
-                </li>
-                <li class="menu-item nav-item"><a href="#/" class="main-text nav-link">About</a></li>
-                <li class="menu-item nav-item menu-item-has-children dropdown"><a href="#/"
-                    class="dropdown-toggle nav-link"><i
-                        class="fa fa-angle-down btn-open-dropdown"></i>Categories</a>
-                <ul class="dropdown-menu">
-                    <li class="menu-item nav-item"><a href="#/"
-                        class="dropdown-text nav-link">Lifestyle</a></li>
-                    <li class="menu-item nav-item"><a href="#/"
-                        class="dropdown-text nav-link">Photography</a></li>
-                    <li class="menu-item nav-item"><a href="#/"
-                        class="dropdown-text nav-link">Fashion</a></li>
-                    <li class="menu-item nav-item"><a href="#/" class="dropdown-text nav-link">News
-                        Detail</a></li>
-                </ul>
-                </li>
-                <li class="menu-item nav-item"><a href="#/" class="main-text nav-link">Contact</a></li>
+                <li class="menu-item nav-item {$page.route.id == '/' ? 'current-menu-item' : ''}"><a href="/" class="main-text nav-link">Home</a></li>
+                <li class="menu-item nav-item {$page.route.id == '/about' ? 'current-menu-item' : ''}"><a href="/about" class="main-text nav-link">About</a></li>
             </ul>
         </nav>
     </div>
