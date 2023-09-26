@@ -5,7 +5,7 @@
         <div class="footer-main">
             <div class="ft-widget-area full-width">
                 <span class="font-weight-bold">
-                    Built with 💔 by <a href="https://instagram.com/aaronw_omens" target="_blank">Aaron</a> ~ Dokumentasi atas tersiksanya batin karena permintaan hati yang terlalu berat untuk di penuhi</span>
+                    Built with 💔 by Aaron ~ Dokumentasi atas tersiksanya batin karena permintaan hati yang terlalu berat untuk di penuhi</span>
                 <!-- <div class="alay-widget">
                     <div class="widget-title title">
                         <span class="font-weight-bold">
@@ -91,7 +91,7 @@
             </div>
             <div class="block-right">
                 <div class="content-text">
-                    <span class="text">Copyright © 2023 - by <a href="https://instagram.com/aaronw_omens" target="_blank" style="color:white;">Aaron</a></span>
+                    <span class="text">Copyright © 2023 - by Aaron</span>
                 </div>
             </div>
             <div class="clearfix" />

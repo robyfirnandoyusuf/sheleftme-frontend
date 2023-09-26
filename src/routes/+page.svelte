@@ -65,7 +65,7 @@ function changePage(newPage) {
                                         <!-- <p class="content">{item.quote}</p> -->
                                         <div class="block-footer">
                                             <div class="meta-infor">
-                                                <div class="author item"><span class="pre">By</span><a href="https://t.me/{item.username}" class="text" target="_blank">{item.username}</a></div><a href="news-detail.html" class="date item"> {item.created_at_formatted}</a>
+                                                <div class="author item"><span class="pre">By</span><a href="https://t.me/{item.username}" class="text" target="_blank">{item.account_name}</a></div><a href="news-detail.html" class="date item"> {item.created_at_formatted}</a>
                                             </div>
                                             <div class="clearfix"></div>
                                         </div>
