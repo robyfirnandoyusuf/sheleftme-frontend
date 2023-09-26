@@ -3,6 +3,9 @@ import adapter from '@sveltejs/adapter-auto';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
+		// paths: {
+		// 	base: '/var/www/html/sheleft.me', // Example base path
+		// },
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
@@ -10,7 +13,7 @@ const config = {
 			precompress: false,
 		}),
 		prerender: {
-			entries: ['/', '/quote/[slug]', '/about'],
+			entries: ['/', '/about'],
 			// Configure how to handle missing IDs
 			handleMissingId: 'ignore', // or 'fail', 'warn', etc.
 		},
